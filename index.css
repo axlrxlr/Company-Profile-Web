@@ -1,0 +1,247 @@
+*{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: "Portal";
+    color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+#header {
+    background: 
+    linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url(img/221.jfif);
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 600px;
+    box-shadow: 2px 10px 3px rgba(87, 160, 255, 0.548);
+}
+
+.jumbotron
+{
+    background: transparent;
+    margin-bottom: 0;
+}
+
+.nav-links {
+    height: 80px;
+}   
+
+.navi a {
+    color: rgb(74, 140, 216);
+}
+#logo-white
+{
+    width: 500px;
+    animation: rotate 5s 1, fade 5s 1;
+    animation-fill-mode: forwards;
+    position: absolute;
+}
+
+#lgo {
+    height: 50px;
+}
+
+.containerz {
+	width: 100%;
+	height: auto;
+	padding: 80px;
+	margin: 0px auto;
+}
+
+#about .containerz {
+    padding-top: 1px;
+}
+#about{
+	background: transparent;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #000;
+    margin-bottom: 0;
+}
+
+#about h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: italic;
+}
+
+#about p {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+#about .button{
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px;
+}
+
+#about .button:hover {
+    text-decoration: none;
+    background-color: #3c90e9;
+    
+}
+
+#about #about-ape {
+    font-size: 48px;
+    text-align: left;
+    padding-top: 30px;
+}
+
+#aboutsie {
+    background: url(img/blpr.jpg);
+}
+
+#aboutsie p {
+    color: white;
+}
+
+#aboutsie h1{
+    color: white;
+}
+
+#biru {
+    color: rgb(83, 152, 255)
+}
+
+#oren {
+    color: rgb(255, 150, 52);
+}
+
+
+#product {
+    background: 
+    linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url(img/scr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#product h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.smaller {
+    padding-top: 28px;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.smaller h5 {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.smaller p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.darkbg {
+    background: 
+    linear-gradient(
+        rgba(0,0,0,0.0),
+        rgba(0,0,0,0.9)
+    );
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+#contact {
+    background: rgb(37, 37, 37);
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+#contact h1 {
+    padding-top:20px;
+}
+
+#contact h1,h4 {
+    color: #007bff
+}
+
+#contact h4 {
+    padding-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item {
+    padding: 15px;
+    width: 300px;
+    margin: 10px;
+    background-color: rgba(71, 71, 71, 0.85);
+    border-radius: 20px;
+}
+
+.flex-item1 {
+    flex-grow: 0;
+}
+
+.flex-item2 {
+    flex-grow: 2;
+}
+
+#merah {
+    color: rgb(219, 61, 61);
+    text-decoration-line: line-through;
+}
+
+#footer {
+    margin-bottom: 0 auto;
+}
+
+#footer h6{
+    background: #000;
+    margin-bottom:0;
+}
+
+
+.flex-contact {
+	flex-grow: 30px;
+}
+
+.flex-contact1 {
+	flex-grow: 2;
+}
+
+.flex-contact2 {
+	padding: 40px;
+}
+
+@font-face
+{
+    font-family: "Portal";
+    src: url(font/portal.ttf);
+}
+
+@keyframes fade {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes rotate {
+    from{transform: translateX(), rotate(0deg);}
+    to{transform: translateX(100px)rotate(360deg);}
+}
